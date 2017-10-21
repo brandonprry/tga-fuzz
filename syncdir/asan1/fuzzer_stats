@@ -1,0 +1,27 @@
+start_time        : 1507751725
+last_update       : 1508544537
+fuzzer_pid        : 22880
+cycles_done       : 127
+execs_done        : 22047173
+execs_per_sec     : 28.99
+paths_total       : 7210
+paths_favored     : 811
+paths_found       : 432
+paths_imported    : 6769
+max_depth         : 5
+cur_path          : 2695
+pending_favs      : 0
+pending_total     : 444
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 16.88%
+unique_crashes    : 0
+unique_hangs      : 43
+last_path         : 1508543394
+last_crash        : 0
+last_hang         : 1508404287
+execs_since_crash : 22047173
+exec_timeout      : 100
+afl_banner        : asan1
+afl_version       : 2.51b
+command_line      : ../afl-2.51b/afl-fuzz -i new_tests/ -o syncdir -m none -S asan1 -- ../FFmpeg-master-asan/ffmpeg -f image2 -i @@
